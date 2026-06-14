@@ -10,11 +10,11 @@ int main(){
     }
     for(i=0;i<n;i++){
         if(a[i]%2==0)
-        ec=ec+a[i];
+        ec++;
         else
-        oc=oc+a[i];
+        oc++;
     }
-    printf("sum of even digits:%d\n",ec);
-    printf("sum of odd elements:%d",oc);
+    printf("no. of even elements:%d\n",ec);
+    printf("no. of odd elements:%d",oc);
     return 0;
 }
